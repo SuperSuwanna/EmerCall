@@ -19,12 +19,19 @@
             android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
 
         <RelativeLayout
+
+
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
 
             <!--Wallpaper-->
 
+            <ImageView
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
             <!--Fragment-->
             <FrameLayout
