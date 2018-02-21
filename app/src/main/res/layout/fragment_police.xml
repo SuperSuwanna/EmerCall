@@ -58,12 +58,14 @@
                 <!--Station2-->
 
                 <ImageView
+                    android:id="@+id/imageViewStation2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station2" />
 
                 <!--titlt-->
                 <TextView
+                    android:id="@+id/textViewStation2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
@@ -95,6 +97,7 @@
                 <!--Station3-->
 
                 <ImageView
+                    android:id="@+id/imageViewStation3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station3" />
@@ -102,6 +105,7 @@
 
                 <!--titlt-->
                 <TextView
+                    android:id="@+id/textViewStation3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
@@ -124,12 +128,14 @@
                 <!--Station4-->
 
                 <ImageView
+                    android:id="@+id/imageViewStation4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station4" />
 
                 <!--titlt-->
                 <TextView
+                    android:id="@+id/textViewStation4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
