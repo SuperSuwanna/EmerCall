@@ -58,7 +58,7 @@ public class MainFragment extends Fragment{
 //     For Station2
 
         ImageView station2ImageView = getView().findViewById(R.id.imageViewStation2);
-        station1ImageView.setOnClickListener(new View.OnClickListener() {
+        station2ImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Log.d(tag,"Click Text" + getString(R.string.station2));
@@ -67,7 +67,7 @@ public class MainFragment extends Fragment{
         });
 
         TextView station2TextView = getView().findViewById(R.id.textViewStation2);
-        station1TextView.setOnClickListener(new View.OnClickListener() {
+        station2TextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Log.d(tag,"Click"+ getString(R.string.station2));
@@ -77,7 +77,7 @@ public class MainFragment extends Fragment{
 
 //     For Station3
         ImageView station3ImageView = getView().findViewById(R.id.imageViewStation3);
-        station1ImageView.setOnClickListener(new View.OnClickListener() {
+        station3ImageView.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View view) {
@@ -87,7 +87,7 @@ public class MainFragment extends Fragment{
 
         });
         TextView station3TextView = getView().findViewById(R.id.textViewStation3);
-        station2TextView.setOnClickListener(new View.OnClickListener() {
+        station3TextView.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View view) {
@@ -97,13 +97,27 @@ public class MainFragment extends Fragment{
         });
 
 //     For Station4
-    ImageView station4ImageView = getView().findViewById(R.id.imageViewStation4);
-    station1ImageView.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
+        ImageView station4ImageView = getView().findViewById(R.id.imageViewStation4);
+        station4ImageView.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceType")
+            @Override
+            public void onClick(View view) {
+                Log.d(tag,"Click Text" + getString(R.id.imageViewStation3));
+                callStation("4444");
+            }
 
-        }
-    });
+        });
+        TextView station4TextView = getView().findViewById(R.id.textViewStation4);
+        station4TextView.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceType")
+            @Override
+            public void onClick(View view) {
+                Log.d(tag,"Click"+ getString(R.id.textViewStation3));
+                callStation("4444");
+            }
+        });
+
+
 
 
    }  // Main Method
