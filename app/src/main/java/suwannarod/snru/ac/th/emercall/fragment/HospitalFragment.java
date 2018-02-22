@@ -21,7 +21,6 @@ public class HospitalFragment extends Fragment{
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-
     }
 
     @Nullable
